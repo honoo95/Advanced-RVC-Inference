@@ -934,10 +934,11 @@ with gr.Blocks() as app:
                 inputs=[md_text],
                 outputs=[md_download_logs]
             )
-    with gr.TabItem("Settings"):
+    with gr.TabItem("Credits"):
         gr.Markdown(
-            "# <center> Settings\n"+
-            "#### <center> Work in progress"
+            "# <center> Credits to\n"+
+            "#### <center> ArkanDash who is the original creator GUI."
+            "#### <center> I added queue system btw ! 
         )
    
     
