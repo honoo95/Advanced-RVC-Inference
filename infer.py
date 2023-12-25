@@ -938,7 +938,7 @@ with gr.Blocks() as app:
         gr.Markdown(
             "# <center> Credits to\n"+
             "#### <center> ArkanDash who is the original creator GUI."
-            "#### <center> I added queue system btw ! 
+            "#### <center> I added queue system btw !" 
         )
    
     
