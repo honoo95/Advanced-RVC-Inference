@@ -622,7 +622,7 @@ def change_audio_mode(vc_audio_mode):
         
 with gr.Blocks() as app:
     gr.Markdown(
-        "# <center> Advanced RVC Inference\n"
+        "# <center> KPOP AI UNIVERSE Advanced RVC Inference\n"
     )
     with gr.Row():
         sid = gr.Dropdown(
@@ -922,7 +922,7 @@ with gr.Blocks() as app:
         gr.Markdown(
             "# <center> Model Downloader (Beta)\n"+
             "#### <center> To download multi link you have to put your link to the textbox and every link separated by space\n"+
-            "#### <center> Support Direct Link, Mega, Google Drive, etc"
+            "#### <center> Support Mega and HuggingFace Link (leelo's models should work also), etc"
         )
         with gr.Column():
             md_text = gr.Textbox(label="URL")
