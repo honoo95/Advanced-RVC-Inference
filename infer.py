@@ -942,9 +942,4 @@ with gr.Blocks() as app:
         )
    
     
-    app.launch(
-        share=args.share_enabled,
-        enable_queue=True,
-        server_name=None if not args.listen else (args.listen_host or '0.0.0.0'),
-        server_port=args.listen_port,
-    )
+     app.queue(concurrency_count=1, max_size=30, api_open=config.api).launch(share=config.colab)
